@@ -31,12 +31,6 @@
 
   <!--Icon-Font-->
   <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-
-  <style>
-    .error {
-      border: 1px solid red;
-    }
-  </style>
 </head>
 
 <body>
@@ -84,74 +78,24 @@
     <!-- end header section -->
   </div>
   <!-- contact section -->
-  <section class="contact_section layout_padding">
-    <div class="custom_heading-container">
-      <h3 class=" ">
-        Contacto del cliente
-      </h3>
-    </div>
-    <div class="container layout_padding2-top">
-      <div class="row">
-        <div class="col-md-6 mx-auto">
-          <form id="miFormulario" action="tu_script_de_procesamiento.php">
-            <div>
-              <input type="text" id="nombre" name="nombre" placeholder="NOMBRE" required>
-            </div>
-            <div>
-              <input type="email" id="email" name="email" placeholder="CORREO" required>
-            </div>
-            <div>
-              <input type="text" id="telefono" name="telefono" placeholder="N&Uacute;MERO TELEF&Oacute;NICO" required>
-            </div>
-            <div>
-              <textarea id="mensaje" name="mensaje" placeholder="MENSAJE" required></textarea>
-              <!-- <input type="text" class="message-box" placeholder="MENSAJE" required> -->
-            </div>
-            <!-- <input type="button" value="Enviar" onclick="validarFormulario()"> -->
-            <div class="d-flex justify-content-center ">
-              <button onclick="validarFormulario()">
-                ENVIAR
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
+  <section class="about_section layout_padding">
+    <div class="container">
+      <h4>Sistemas de Verificación MOR, SA de CV</h4>
+      <p class="layout_padding2-bottom">
+        <u>Dirección:</u><br>
+        Autopista Cuernavaca Acapulco km 115 <br>
+        Col. Alpuyeca <br>
+        Xochitepec, Morelos. México <br>
+        CP: 62790 <br>
+      </p>
+      <p class="layout_padding2-bottom">
+        info@sivemor.com <br>
+        Teléfono: 777-688-4611 <br>
+      </p>
+      <img src="images/Logo.png" width="200" height="160">
     </div>
   </section>
-  <script>
-    function validarFormulario() {
-      var nombre = document.getElementById("nombre");
-      var email = document.getElementById("email");
-      var telefono = document.getElementById("telefono");
-      var mensaje = document.getElementById("mensaje");
 
-      if (nombre.value === "") {
-        nombre.classList.add("error");
-      } else {
-        nombre.classList.remove("error");
-      }
-
-      if (email.value === "") {
-        email.classList.add("error");
-      } else {
-        email.classList.remove("error");
-      }
-
-      if (telefono.value === "") {
-        telefono.classList.add("error");
-      } else {
-        telefono.classList.remove("error");
-      }
-
-      if (mensaje.value === "") {
-        mensaje.classList.add("error");
-      } else {
-        mensaje.classList.remove("error");
-      }
-
-      // Puedes agregar aquí la lógica para enviar el formulario si todo está correcto
-    }
-  </script>
   <!-- end contact section -->
 
   <!-- info section -->
