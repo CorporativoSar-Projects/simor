@@ -382,11 +382,11 @@ a:focus {
 }
 
 .service_section .detail-box .btn-box a {
-  color: #ff4f5a;
+  color: #4AADCD;
 }
 
 .service_section .detail-box .btn-box hr {
-  background-color: #ff4f5a;
+  background-color: #4AADCD;
 }
 
 .service_section::before {
@@ -403,7 +403,7 @@ a:focus {
 }
 
 .work_section {
-  background-color: #ff4f5a;
+  background-color: #4AADCD;
 }
 
 .work_section .custom_heading-container h3 {
