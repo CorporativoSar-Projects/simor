@@ -407,11 +407,11 @@ a:focus {
 }
 
 .work_section .custom_heading-container h3 {
-  color: #ffffff;
+  color: #fff;
 }
 
 .work_section .custom_heading-container h3::before {
-  background-color: #ffffff;
+  background-color: #01436D;
 }
 
 .work_section .work_container {
@@ -541,7 +541,7 @@ a:focus {
 }
 
 .work_section .btn-box a {
-  color: #ffffff;
+  color: #000000;
 }
 
 .work_section .btn-box hr {
