@@ -4,28 +4,6 @@ body {
   background-color: #ffffff;
 }
 
-/*Estilos Botón WhhatsApp*/
-.btn-wsp {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  line-height: 63px;
-  bottom: 25px;
-  right: 25px;
-  background: #25d366;
-  color: #FFF;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 35px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-  z-index: 100;
-  transition: all 300ms ease;
-}
-
-.btn-wsp:hover {
-  background: #20ba5a;
-}
-
 @media only screen and (min-width:320px) and (max-width:768px) {
   .btn-wsp {
     width: 63px;
@@ -33,8 +11,6 @@ body {
     line-height: 66px;
   }
 }
-
-/*Fin estilos botón Whats*/
 
 .text-justify {
   text-align: justify;
@@ -329,6 +305,17 @@ a:focus {
   position: relative;
 }
 
+/* Margen Galería de fotos*/
+.service_section .service_container .col-md-3 {
+  margin-top: 15px;
+}
+
+.center-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .service_section .custom_heading-container {
   margin-bottom: 15px;
 }
@@ -391,15 +378,15 @@ a:focus {
 
 .service_section::before {
   content: "";
-  width: 200px;
-  height: 175px;
+  width: 178px;
+  height: 130px;
   position: absolute;
-  bottom: 95px;
-  left: 50%;
+  bottom: 80px;
+  left: 49%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-size: cover;
-  /* background-image: url(../images/worker.png); */
+  background-size: contain;
+  /* background-image: url(../images/Logo.png); */
 }
 
 .work_section {
@@ -541,7 +528,7 @@ a:focus {
 }
 
 .work_section .btn-box a {
-  color: #000000;
+  color: #fff;
 }
 
 .work_section .btn-box hr {
@@ -674,6 +661,12 @@ a:focus {
   margin-right: 15px;
 }
 
+.nav-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .info_section .info-nav ul {
   padding-left: 15px;
 }
@@ -706,6 +699,10 @@ a:focus {
   margin-top: 20px;
 }
 
+.info_section .info-contact .time {
+  margin-top: 20px;
+}
+
 .info_section .discover ul {
   padding: 0;
 }
@@ -723,6 +720,13 @@ a:focus {
 .container .bold_ol li {
   font-weight: bold;
 }
+
+/*Galería*/
+.lightbox-gallery img {
+  width: 200px;
+  height: 200px;
+}
+/* Fin css Galería*/
 
 /* footer section*/
 .footer_section {
