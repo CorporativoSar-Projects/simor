@@ -316,6 +316,21 @@ a:focus {
   align-items: center;
 }
 
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Alinear títulos de tablas*/
+table th {
+  text-align: center;
+}
+
+.box-table {
+  width: 50%;
+}
+
 .service_section .custom_heading-container {
   margin-bottom: 15px;
 }
@@ -712,7 +727,13 @@ a:focus {
   margin: 5px 0;
 }
 
+/*Color rojo (red) título h5*/
 .container h5 {
+  font-weight: bold;
+  color: #ff4f5a;
+}
+
+.title-red {
   font-weight: bold;
   color: #ff4f5a;
 }
@@ -727,13 +748,14 @@ a:focus {
   height: 200px;
 }
 
-.gallery_service{
+.gallery_service {
   display: flex;
   height: 20rem;
-  gap: 1rem;;
+  gap: 1rem;
+  ;
 }
 
-.gallery_service > div {
+.gallery_service>div {
   flex: 1;
   border-radius: 1rem;
   background-position: center;
@@ -742,10 +764,25 @@ a:focus {
   transition: all .9s cubic-bezier(.25, .4, .45, 1.4);
 }
 
-.gallery_service > div:hover {
+.gallery_service>div:hover {
   flex: 5;
 }
+
 /* Fin css Galería*/
+
+/* Index - Nuestros servicios*/
+.d-flex .card .center-div {
+  position: relative;
+}
+
+.d-flex .card .center-div img {
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Fin nuestros servicios*/
 
 /* footer section*/
 .footer_section {
