@@ -65,7 +65,7 @@ body {
   position: absolute;
   bottom: -7px;
   left: 50%;
-  width: 250px;
+  width: 130%; /*Cambiar tamaño de línea debajo de títulos*/
   height: 7px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -308,7 +308,11 @@ a:focus {
   width: 350px;
 }
 
-.politica_section img {
+.politica_section {
+  text-align: center;
+}
+
+.politica_section .img-box img {
   width: 350px;
 }
 

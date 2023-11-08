@@ -23,6 +23,9 @@
         width: auto;
     }
 
+    .service_images {
+        width: 80%;
+    }
 
 }
 
@@ -60,6 +63,10 @@
 
     .client_section .client_container {
         width: 100%;
+    }
+
+    .service_images {
+        width: 80%;
     }
 }
 
@@ -106,6 +113,10 @@
     .work_section .work_container .box.b-4 {
         animation-duration: 1.5s;
     }
+
+    .service_images {
+        width: 80%;
+    }
 }
 
 @media (max-width: 480px) {}
@@ -129,6 +140,10 @@
     .custom_heading-container h3 {
         font-size: 1.5rem;
     }
+
+    .service_images {
+        width: 80%;
+    }
 }
 
 @media (max-width: 360px) {}
@@ -136,5 +151,9 @@
 @media (min-width: 1200px) {
     .container {
         max-width: 1170px;
+    }
+
+    .service_images {
+        width: 80%;
     }
 }
