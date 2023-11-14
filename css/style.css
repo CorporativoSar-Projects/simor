@@ -652,15 +652,16 @@ table th {
 /* Fin css Galería*/
 
 /* Index - Nuestros servicios*/
-.d-flex .card .center-div {
-  position: relative;
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.d-flex .card .center-div img {
-  position: absolute;
-  left: 60%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.image-center {
+  width: 200px;
+  height: 200px;
+  margin-top: 10%;
 }
 
 /*Fin nuestros servicios*/
@@ -682,6 +683,7 @@ table th {
 .footer_section a {
   color: #171717;
 }
+
 /* end footer section*/
 
 /* Carrusel nuevo CSS */
