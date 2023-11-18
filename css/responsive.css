@@ -184,10 +184,20 @@
     }
 }
 
-
 @media only screen and (max-width: 768px) {
 
     .imglogocontac{
+        display: none;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .imgabout1{
         display: none;
         height: 0;
         margin: 0;
