@@ -2,7 +2,14 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #000000;
   background-color: #ffffff;
-  font-size: 25px;
+  font-size: 22px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px)  {
+  .body{
+    font-size: 15px !important;
+  }
+  
 }
 
 @media only screen and (min-width:320px) and (max-width:768px) {
@@ -560,7 +567,7 @@ table th {
 
 .nav-options {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
 }
 
@@ -613,6 +620,7 @@ table th {
 .container h5 {
   font-weight: bold;
   color: #ff4f5a;
+  font-size: 35px;
 }
 
 .title-red {
@@ -1011,7 +1019,7 @@ table th {
   padding-left: 3rem !important;
 }
 
-/*Cards*/
+/*Cards en index*/
 .container-card{
 	width: 100%;
 	display: flex;
@@ -1075,14 +1083,6 @@ table th {
 	background: #2fb4cc;
 	color: #fff;
 }
-.mapa{
-  margin-top: 25px;
-  margin-bottom: 25px;
-  position: absolute;
-  top: 200px;
-  left: 900px;
-
-}
 
 @media only screen and (min-width:320px) and (max-width:768px){
 	.container-card{
@@ -1096,3 +1096,8 @@ table th {
 
 /*Fin carrusel nuevo CSS*/
 /*# sourceMappingURL=style.css.map */
+
+/*COLOR LETRA BANNER*/
+.encal1{
+  color: white;
+}
